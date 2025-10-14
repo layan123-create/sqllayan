@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center_horizontal">
+    <TextView
+        android:layout_marginTop="40dp"
+        android:id="@+id/updateclient"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Update Client"
+        android:textSize="24sp"
+        android:layout_marginBottom="15dp" />
+    <EditText
+        android:id="@+id/clientna"
+        android:layout_marginBottom="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Client Name"
+        android:inputType="text"/>
+
+    <EditText
+        android:id="@+id/amount2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Amount"
+        android:inputType="number"
+        android:layout_marginTop="8dp"/>
+
+    <Button
+        android:id="@+id/updatebt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Update"
+        android:textSize="20sp"
+        android:layout_marginTop="15dp"/>
+
+</LinearLayout>
